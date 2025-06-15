@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Spotify - Web Player: Music for everyone" </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="home bg-grey rounded m1 p1">
+                <div class="logo"><img class='invert' src="logo.svg" alt=""></div>
+                <ul>
+                    <li> <img class='invert' src="home.svg" alt="home">Home</li>
+                    <li><img class='invert' src="search.svg" alt="home">Search</li>
+                </ul>
+
+            </div>
+            <div class="library bg-grey rounded m1 p1 ">
+                <div class="heading">
+                    <img class="invert" src="playlist.svg" alt="">
+
+                    <h2>
+                        Your Library
+
+                    </h2>
+                </div>
+                <div class="songlist">
+                    <ul>
+                        <!-- <li>
+                            <img src="music.svg" class="songicon">
+                            <div class="info">
+                                <div>Song Name</div>
+                                <div>Song Artist</div>
+                            </div>
+                            <svg id="playPauseBtn" width="25" height="48" viewBox="0 0 48 48" style="cursor: pointer;"
+                                onclick="togglePlayPause()" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="24" r="24" fill="#1FDF64" />
+                                <path id="iconShape" d="M19 16L33 24L19 32V16Z" fill="black" />
+                            </svg>
+                            <div class="playnow">
+                                <span>Play Now</span> 
+
+                            </div>
+
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety & Privacy
+                                Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="right bg-grey rounded ">
+            <div class="header">
+                <div class="nav">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="white"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M15 18l-6-6 6-6" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="white"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                        <path d="M9 6l6 6-6 6" />
+                    </svg>
+                </div>
+                <div class="buttons">
+                    <button>Signup</button>
+                    <button>Login</button>
+                </div>
+            </div>
+            <div class="spotifyplaylists">
+                <h1>Spotify Playlist</h1>
+                <div class="cardContainer">
+                    <div class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"
+                                fill="none">
+                                <circle cx="24" cy="24" r="24" fill="#1FDF64" /> <!-- Spotify green circle -->
+                                <path d="M19 16L33 24L19 32V16Z" fill="black" /> <!-- Play triangle -->
+                            </svg>
+                        </div>
+                        <img src="https://upload.wikimedia.org/wikipedia/en/4/40/Ed_Sheeran_-_Sapphire.png" alt="">
+                        <h3>Sapphire</h3>
+                        <p>Ed Shreeran</p>
+
+                    </div>
+
+                    <div class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"
+                                fill="none">
+                                <circle cx="24" cy="24" r="24" fill="#1FDF64" /> <!-- Spotify green circle -->
+                                <path d="M19 16L33 24L19 32V16Z" fill="black" /> <!-- Play triangle -->
+                            </svg>
+
+                        </div>
+                        <img src="https://c.saavncdn.com/438/Timeless-English-2024-20250306055254-500x500.jpg" alt="">
+                        <h3>Timeless</h3>
+                        <p>Weekend</p>
+
+                    </div>
+
+                    <div class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"
+                                fill="none">
+                                <circle cx="24" cy="24" r="24" fill="#1FDF64" /> <!-- Spotify green circle -->
+                                <path d="M19 16L33 24L19 32V16Z" fill="black" /> <!-- Play triangle -->
+                            </svg>
+
+                        </div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGvDaHD2uScx99i4InVydZkThaP1FkSmYNZg&s"
+                            alt="">
+                        <h3>Satisfaction(Tren Twins)</h3>
+                        <p>MYSK</p>
+
+                    </div>
+
+
+                    <div class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"
+                                fill="none">
+                                <circle cx="24" cy="24" r="24" fill="#1FDF64" /> <!-- Spotify green circle -->
+                                <path d="M19 16L33 24L19 32V16Z" fill="black" /> <!-- Play triangle -->
+                            </svg>
+
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d0000b2733fbdbf37626f8bee2abe8a39" alt="">
+                        <h3>Kids</h3>
+                        <p>Kyle Dixon & Michael Stein</p>
+
+                    </div>
+
+                </div>
+                <div class="playbar">
+                    <div class="time-display">
+                        <span id="currentTime">0:00</span> /
+                        <span id="totalTime">0:00</span>
+                        <div class="songinfo" id="songinfo"></div>
+                    </div>
+                    <div class="seekbar" id="seekbar">
+                        <div class="circle" id="circle"></div>
+                    </div>
+
+                    <div class="songbutton">
+                        <img class="previous" src="prevbtn.svg" alt="">
+                        <svg id="playPauseBtn" class="playpause" width="48" height="48" viewBox="0 0 48 48"
+                            style="cursor: pointer;" onclick="togglePlayPause()" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="24" cy="24" r="24" fill="#1FDF64" />
+                            <path id="iconShape" d="M19 16L33 24L19 32V16Z" fill="black" />
+                        </svg>
+
+
+                        <img class="next" src="nextbtn.svg" alt="">
+                    </div>
+                    <div class="songtime">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+
+
+
+</body>
+
+</html>

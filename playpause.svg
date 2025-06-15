@@ -1,0 +1,18 @@
+<svg id="playPauseBtn" width="48" height="48" viewBox="0 0 48 48" style="cursor: pointer;" onclick="togglePlayPause()" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="24" cy="24" r="24" fill="#1FDF64" />
+  <path id="iconShape" d="M19 16L33 24L19 32V16Z" fill="black" />
+</svg>
+
+<script>
+  let isPlaying = false;
+
+  function togglePlayPause() {
+    const icon = document.getElementById("iconShape");
+    if (isPlaying) {
+      icon.setAttribute("d", "M19 16L33 24L19 32V16Z"); // Play
+    } else {
+      icon.setAttribute("d", "M18 16H21V32H18zM27 16H30V32H27z"); // Pause
+    }
+    isPlaying = !isPlaying;
+  }
+</script>
